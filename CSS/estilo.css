@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+}
+div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+hr{
+    width: 1000px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+h1{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(234,128,76);
+}
+table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+th{
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(234,128,76);
+}
+td{
+    text-align: center;
+    font-family: Arial;
+}
+dl{
+    text-align: left;
+}
+dd{
+    text-align: justify;
+}
+a{
+    color: rgb(234,128,76);
+}
+td:nth-child(1) {
+    width: 200px;
+}
+td:nth-child(2) {
+    width: 500px;
+}
+td:nth-child(3) {
+    width: 300px;
+}
+td:nth-child(4) {
+    width: 300px;
+    text-align: justify;
+}
+#tablaWeb tr:nth-child(even) {
+    background-color: rgb(255,241,193);
+}
+#tablaWeb tr:hover {
+    background-color: rgb(250,207,125);
+  }
+.cellWithImages {
+    width: 400px; /* Ancho total para tres imágenes de 80 px cada una */
+  }
+.cellWithImages img {
+    width: 80px;
+    height: 80px;
+    display: block; /* Esto ayuda a manejar márgenes y alineación */
+    margin: 5px auto;
+    margin-bottom: 5px; /* Puedes ajustar este valor según sea necesario */
+  }
